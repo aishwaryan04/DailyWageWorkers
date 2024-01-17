@@ -1,0 +1,284 @@
+.desktop {
+    background-color: #02030e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #02030e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1464px;
+    height: 812px;
+    top: 3px;
+    left: -24px;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 506px;
+    top: 306px;
+    left: 24px;
+    background-color: white;
+  }
+
+  .crossrectangle {
+    position: absolute;
+    width: 820px;
+    height: 406px;
+    transform: translate(90%,-15%) rotate(-10deg);
+    background-color: white;
+    z-index: 0;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 488px;
+    height: 395px;
+    top: 7px;
+    left: 124px;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-2 {
+    position: absolute;
+    width: 317px;
+    height: 78px;
+    top: 553px;
+    left: 210px;
+    background-color: #1eb8ed;
+    border-radius: 43px;
+    z-index: 2;
+  }
+  
+  .desktop .rectangle-3 {
+    position: absolute;
+    width: 317px;
+    height: 78px;
+    top: 553px;
+    right: 210px;
+    background-color: #1eb8ed;
+    border-radius: 43px;
+    z-index: 2;
+  }
+  
+  .desktop .search-jobs {
+    position: absolute;
+    top: 575px;
+    right: 250px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+  }
+  
+  .desktop .offer-jobs {
+    position: absolute;
+    top: 575px;
+    left: 260px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+  }
+  
+  .desktop .every-social-media {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 772px;
+    left: 1382px;
+    object-fit: cover;
+  }
+  
+  .desktop .sm-icons-facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 772px;
+    left: 1323px;
+    object-fit: cover;
+  }
+  
+  .desktop .snap-ghost {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 772px;
+    left: 1264px;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-4 {
+    position: absolute;
+    width: 1440px;
+    height: 288px;
+    top: 1px;
+    left: 24px;
+  }
+  
+  .desktop .daily-wage-workers {
+    position:absolute;
+    width: 839px;
+    top: 0px;
+    left: 213px;
+    transform: translate(0, -30%);
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper {
+    color: #ffffff;
+  }
+  
+  .desktop .span {
+    color: #db0e0e;
+  }
+  
+  .desktop .rectangle-5 {
+    position: absolute;
+    width: 18px;
+    height: 127px;
+    top: 26px;
+    left: 195px;
+    background-color: #dc0f0f;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 29px;
+    left: 791px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #f7f1f1;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 29px;
+    left: 911px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #f7f1f1;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 29px;
+    left: 1041px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #f7f1f1;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 29px;
+    left: 1186px;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #e80808;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    width: 8px;
+    top: 42px;
+    left: 1139px;
+    transform: rotate(180deg);
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .rectangle-6 {
+    position: absolute;
+    width: 690px;
+    height: 280px;
+    top: 330px;
+    left: 722px;
+    background-color: #ffffff;
+  }
+  
+  .desktop .daily-wages-workers {
+    position: absolute;
+    width: 675px;
+    top: 380px;
+    left: 737px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .ellipse {
+    position: absolute;
+    width: 195px;
+    height: 165px;
+    top: 7px;
+    left: 0;
+    border-radius: 97.5px/82.5px;
+    box-shadow: 0px 4px 4px #00000040;
+    background: linear-gradient(
+      180deg,
+      rgb(230.97, 12.9, 12.9) 0%,
+      rgba(230.97, 12.9, 12.9, 0.46) 53.93%,
+      rgba(230.97, 12.9, 12.9, 0) 100%
+    );
+  }
+  
+  .desktop .rectangle-7 {
+    position: absolute;
+    width: 1440px;
+    height: 402px;
+    top: 1247px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .rectangle-8 {
+    position: absolute;
+    width: 1440px;
+    height: 41px;
+    top: 906px;
+    left: 0;
+    background-color: #03030e;
+  }
+  
