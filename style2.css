@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    /*bottom: 10px;
+    top: 10px;*/
+}
+.black {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vh;
+}
+.box {
+    color: white;
+    margin: 20px 0;
+    width: 20vw;
+    height: 25vw;
+    background-color: rgb(43, 1, 43);
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    
+    cursor: pointer;
+    position: relative;
+}
+.box img {
+   /* width: 20vw;
+    height: 8vw;
+    justify-content: right;*/
+      width: 20vw; /* Ensure images don't exceed their container's width */
+      height: 8vw; /* Maintain aspect ratio */
+      
+}
+.box .image1 {
+    width: 20vw;
+    height: 8vw;
+    justify-content: right;
+}
+.box .round {
+    
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    overflow: hidden;
+    top:  60px;
+    left: 85px;
+    position: absolute;
+}
+.box h2 {
+    position: absolute;
+    bottom: 150px;
+}
+.box h3 {
+    position: absolute;
+    bottom: 120px;
+}
+.box h4 {
+    position: absolute;
+    bottom: 105px;
+}
+.box a {
+    position: absolute;
+    bottom: 80px;
+}
