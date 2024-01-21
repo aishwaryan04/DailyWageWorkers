@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OFFER JOB FORM</title>
+      <!-- <link rel="stylesheet" href="styleform.css">-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-wrapper">
+              <label for="ownername">NAME</label>
+              <input type="string" id="ownername">
+            </div>
+            <div class="input-wrapper">
+                <label for="fieldname">JOB FIELD </label>
+                <select name="fieldname" id="fieldname">
+                    <option field="labourconstrutor">Labour Constructor</option>
+                    <option field="farmlabour">Farm Labour</option>
+                    <option field="driver">Driver</option>
+                    <option field="electrician">Electrician</option>
+                    <option field="welder">Welder</option>
+                    <option field="domestichelpers">Domestic Helpers</option>
+                    <option field="plumber">Plumber</option>
+                    <option field="painter">Painter</option>
+                    <option field="carpenter">Carpenter</option>
+                    <option field="pest">Pest Controller</option>
+                </select>
+            </div>
+            <div class="input-wrapper">
+                <label for="specifyjob">SPECIFY JOB</label>
+                <input type="string" id="specifyjob">
+            </div>
+            <div class="input-wrapper">
+                <label for="phoneno">PHONE NUMBER</label>
+                <input type="number" id="phoneno">
+            </div>
+          <div class="input-wrapper">
+                <label for="imageUpload1">CHOOSE BACKGROUND IMAGE:</label>
+                <input type="file" id="imageUpload1" name="imageUpload1" accept="image/*">
+            </div>
+            <div class="input-wrapper">
+                <label for="imageUpload2">CHOOSE PROFILE IMAGE:</label>
+                <input type="file" id="imageUpload2" name="imageUpload2" accept="image/*">
+            </div>
+            <div class="buttons">
+                <button id="submitbtn1">SUBMIT</button>
+                <button id="resetbtn1">RESET</button>
+            </div>
+        </div>
+        <script src="../js/form.js" type="module"></script>
+    </body>
+</html>
